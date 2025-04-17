@@ -1,6 +1,6 @@
 # 操作系统指标异常检测系统
 
-这是一个基于C语言实现的操作系统指标异常检测系统，可以监控CPU、内存、磁盘和网络等关键指标，并使用多种算法检测异常。
+操作系统指标异常检测系统，可以监控CPU、内存、磁盘和网络等关键指标，并使用多种算法检测异常。
 
 ## 功能特点
 
@@ -105,12 +105,6 @@ anomaly_detection -l /var/log/system_anomalies.log
 [时间戳] 严重程度=X, 指标=指标名, 值=当前值, 阈值=触发阈值, 消息=异常描述
 ```
 
-## 参考资料
-
-本项目参考了以下资源：
-
-- [gala-anteater](https://gitee.com/openeuler/gala-anteater)：一款基于AI的操作系统异常检测平台
-- [GyroSensor_AnomalyDetection](https://github.com/ChangeunKim/GyroSensor_AnomalyDetection)：嵌入式系统异常检测实现
 
 ## 许可证
 
